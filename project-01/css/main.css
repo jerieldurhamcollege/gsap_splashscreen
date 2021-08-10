@@ -1,0 +1,415 @@
+@font-face {
+    font-family: Revamped;
+    src: url(../css/fonts/Revamped.ttf);
+  }
+  @font-face {
+    font-family: VoiceActivated;
+    src: url(../css/fonts/VoiceActivatedBB_reg.otf);
+  }
+  html{
+    font-size:20px;
+  }
+body{
+    background: #04091a;
+    display: grid;
+}
+header {
+width: 100%;
+top: 0;
+left: 0;
+/* position: fixed; */
+padding: 1em;
+color: #eeee;
+background: #262262;
+z-index: 1000;
+}
+#logo {
+height:10vh
+}
+#header_link:hover{
+    cursor: pointer;
+  }
+#viewbox{
+    background-color: #04091a;
+    height:85vh;
+    justify-self: center;
+    width: 100%;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(23, 4, 90, 0.9);
+    color: white;
+    margin-top: 3rem;
+    font-size: 1em;
+    font-family: VoiceActivated;
+  }
+/*BACKGROUND*/
+#rect_background{
+    animation-fill-mode: both;
+    animation: movebg_Animation 10s infinite;
+}
+@keyframes movebg_Animation{
+    20% {
+        transform: translate(-200px, -200px);
+    }
+    50% {
+        transform: translate(300px, 300px);
+    }
+    95% {
+        transform: translate(-50px,-50px);
+    }
+}
+@keyframes blinking-stars{
+    0%{
+        fill: #c9cf1b;
+    }
+    10%{
+        fill: #f7ff05;
+    }
+    20%{
+        fill: #4d4dd4;
+    }
+    50%{
+        fill: #04091a;
+    }
+    70%{
+        fill: white;
+    }
+    90%{
+        fill: #c9cf1b;
+    }
+}
+
+@keyframes blinking-stars-2{
+    0%{
+        fill: #f7ff05;
+    }
+    10%{
+        fill: #04091a;
+    }
+    40%{
+        fill: #d64545;
+    }
+    80%{
+        fill: white;
+    }
+    92%{
+        fill: #f7ff05;
+    }
+}
+.stars_pattern_2{
+    animation: blinking-stars-2 19s infinite;
+    fill: white;
+    /*19 seconds so the animations take longer to "loop" compared to the other block of stars*/
+}
+
+/*THE SUN*/
+#sun{
+    fill: #fac401;
+    filter: drop-shadow( 0px 0px 20px rgba(240, 240, 30, .7));;
+    animation: sun-animation 14s infinite;
+}
+
+@keyframes sun-animation {
+    0% {
+        fill: #faaf01;
+    }
+    10% {
+        fill: #fac401;
+    }
+    20% {
+        fill: #f9d71c;
+    }
+    30% {
+        fill: #F3F34E;
+    }
+    60% {
+        fill: #F2F281;
+    }
+    80% {
+        fill: #fac401;
+    }
+    95% {
+        fill: #faaf01;
+    }
+}
+
+#sun-light{
+    opacity: 0.3;
+    fill: #f9d71c;
+    animation: travelling-light 21s infinite;
+}
+
+#sun-light-dim{
+    fill: #f9d71c;
+    opacity: 0.15;
+    animation: travelling-light 21s infinite;
+}
+
+#sun-light-dimmer{
+    fill: #f9d71c;
+    opacity: 0.1;
+    animation: travelling-light 21s infinite;
+}
+
+.stars_pattern{
+    animation: blinking-stars 15s infinite;
+    fill: white;
+}
+
+@keyframes travelling-light{
+    0%{
+        fill: #c9cf1b;
+    }
+    20%{
+        fill: #cbcf3b;
+    }
+    40%{
+        fill: #c4c869;
+    }
+    60%{
+        fill: #cacd78;
+    }
+    80%{
+        fill: #c4c869;
+    }
+    90%{
+        fill: #c9cf2a;
+    }
+}
+
+#moon{
+    fill: white;
+    transform-origin: center;
+}
+#moon_group{
+    transform: translate(-288px,108px);
+    /*I achieved this by calculating the 15% on the X axis and the 10% on the Y axis that I applied to the Earth position.*/
+}
+.rotate_sun{
+    transform-origin: initial;
+    /*This is actually 50% 50%*/
+    animation: rotate-animation 30s linear infinite;
+}
+/*PLANETS*/
+.continent{
+    fill:#964B00;
+}
+#earth{
+    fill: #3644E4;
+}
+.rotate_earth{
+    /*Well, it is rotating the sun and not the earth... But here I changed the rotation speed for the moon.*/
+    transform-origin: initial;
+    /*This is actually 50% 50%*/
+    animation: rotate-animation 2s linear infinite;
+}
+#mercury{
+    transform-origin: initial;
+    fill: #4a0a06;
+    animation: rotate-animation 7s linear infinite;
+}
+#venus{
+    transform-origin: initial;
+    fill: #faaf01;
+    animation: rotate-animation 18s linear infinite;
+}
+#mars{
+    transform-origin: initial;
+    fill: #9f0e13;
+    animation: rotate-animation 56s linear infinite;
+}
+
+@keyframes rotate-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+/*ALIEN SHIP*/
+#alien_head{
+    fill: #3cd070;
+    /*//Alien green*/
+}
+#alienShip_window{
+    fill: black;
+}
+#alien_ovni{
+    fill: gray;
+}
+.alien_drawing_line{
+    stroke: black;
+}
+#alienShip_wings{
+    fill: gray;
+}
+.alien_eyes{
+    fill: black;
+}
+#alien_mouth{
+    fill: black;
+}
+
+#alien_head_group{
+    animation: look_around 5s infinite;
+}
+@keyframes look_around {
+    0%{
+        transform: translateX(-20px)
+    }
+    50%{
+        transform: translateX(20px)
+    }
+    100%{
+        transform: translateX(-20px)
+    }
+}
+
+
+.spaceShip_lights spaceShip_lights_1 spaceShip_lights_2 spaceShip_lights_3{
+    fill: red;
+}
+.spaceShip_lights {
+    animation: lights_anim 10s infinite;
+}
+.spaceShip_lights_1 {
+    animation: lights_anim_1 13s infinite;
+}
+.spaceShip_lights_2 {
+    animation: lights_anim_2 15s infinite;
+}
+.spaceShip_lights_3 {
+    animation: lights_anim_3 17s infinite;
+}
+
+@keyframes lights_anim {
+    20% {fill: green;}
+    50% {fill: red;}
+    70% {fill: blue;}
+    90% {fill: yellow;}
+}
+@keyframes lights_anim_1 {
+    20% {fill: purple;}
+    50% {fill: greenyellow;}
+    70% {fill: orange;}
+    90% {fill: fuchsia;}
+}
+@keyframes lights_anim_2 {
+    20% {fill: cyan;}
+    30% {fill: yellow;}
+    50% {fill: pink;}
+    70% {fill: blue;}
+    80% {fill: red;}
+    90% {fill: peru;}
+}
+@keyframes lights_anim_3 {
+    20% {fill: deepskyblue;}
+    50% {fill: darkred;}
+    70% {fill: greenyellow;}
+    90% {fill: white;}
+}
+#glow_light{
+    fill: greenyellow;
+    animation: lights_anim_2 15s alternate infinite;
+    opacity: 0.3;
+}
+
+.alien_ship {
+    animation: moveship 25s alternate infinite;
+}
+
+@keyframes moveship {
+
+    20% {
+        transform: translate(1500px, -200px);
+    }
+    30% {
+        transform: translate(-100px, -400px);
+    }
+    40% {
+        transform: translate(300px, -500px);
+    }
+    50% {
+        transform: translate(400px, 200px);
+    }
+    60% {
+        transform: translate(1200px, -500px);
+    }
+    70% {
+        transform: translate(1200px, 150px);
+    }
+    80% {
+        transform: translate(-200px, -450px);
+    }
+    90% {
+        transform: translate(600px, -450px);
+    }
+}
+
+/*SHOOTING STARS*/
+.shootingStar{
+    fill: whitesmoke;
+}
+.shootingStar_trail{
+    fill: ghostwhite;
+    opacity: 0.3;
+}
+
+#shootingStar_LRV{
+    animation-fill-mode: both;
+    animation: shootingstar_Animation 15s infinite;
+}
+
+#shootingStar_RLV{
+    animation-fill-mode: both;
+    animation: shootingstar_Animation_2 10s infinite;
+}
+
+#shootingStar_Slow{
+    animation-fill-mode: both;
+    animation: shootingstar_Animation 60s infinite;
+}
+
+@keyframes shootingstar_Animation{
+    20% {
+        transform: translate(2500px, 900px);
+    }
+    100% {
+        transform: translate(2600px, 900px);
+    }
+}
+
+@keyframes shootingstar_Animation_2{
+    20% {
+        transform: translate(-2500px, 900px);
+    }
+    100% {
+        transform: translate(-2600px, 900px);
+    }
+}
+
+
+/* For mobile:*/
+@media only screen and (max-width: 700px) {
+    /* .contentContainer{
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+    }
+  
+    #separator{
+      display: none;
+    } */
+    .project_div{
+      padding-top: 3em;
+      padding-bottom: 3em;
+    }
+    #logo{
+      max-width: 80%;
+    }
+  }

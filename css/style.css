@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Revamped;
+  src: url(../css/fonts/Revamped.ttf);
+}
+@font-face {
+  font-family: VoiceActivated;
+  src: url(../css/fonts/VoiceActivatedBB_reg.otf);
+}
+body {
+  font-family: 'VoiceActivated', "Roboto", sans-serif;
+  background: "#262262";
+}
+html{
+  font-size:20px;
+  background: "#262262";
+}
+header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  /* position: fixed; */
+  padding: 1em;
+  color: #eeee;
+  background: #262262;
+  z-index: 1000;
+}
+#header_link:hover{
+  cursor: pointer;
+}
+#logo {
+  height:10vh
+}
+#header_link:hover{
+  cursor: pointer;
+}
+
+h1,
+h2 {
+  margin: 12px 18px;
+}
+
+
+h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+section {
+  width: 100%;
+  /* overflow: hidden; */
+  margin-bottom: 12px;
+  /* border: solid 1px magenta; */
+}
+
+section:first-of-type {
+  /* margin-top: 24px; */
+}
+
+.contentContainer {
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: 1fr 30px 1fr;
+}
+
+
+#section{
+  background-color:transparent;
+}
+.description{
+  margin-right: 10%;
+  margin-left: 10%;
+  display: grid;
+  justify-items: center;
+  align-self: flex-start;
+}
+
+#rocket{
+
+  padding:1em;
+  align-self: center;
+  justify-self: center;
+  height: 60%;
+  max-height: 35vh;
+}
+
+#emoji{
+  padding:1em;
+  align-self: center;
+  justify-self: center;
+  height: 60%;
+  max-height: 35vh;
+}
+
+#emoji:hover{
+  cursor: pointer;
+}
+#rocket:hover{
+  cursor: pointer;
+}
+
+.project_div{
+  display: grid;
+  place-items: center;
+  grid-template-rows: 50vh auto;
+  min-height: 80vh;
+}
+#project1_div{
+  background-color:#005dae;
+}
+#project2_div{
+  background-color:#00add6;
+}
+#separator_div{
+  background-color: black;
+}
+#separator{
+  min-height: 100vh;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(23, 4, 90, 0.9);
+  color: white;
+  margin-top: 3rem;
+  font-size: 1em;
+  font-family: VoiceActivated;
+}
+
+/* For mobile:*/
+@media only screen and (max-width: 700px) {
+  .contentContainer{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  #separator{
+    display: none;
+  }
+  .project_div{
+    padding-top: 3em;
+    padding-bottom: 3em;
+  }
+  #logo{
+    max-width: 80%;
+  }
+}

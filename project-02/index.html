@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html dir='ltr' lang='en-ca'>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width' minimum-scale='1.0'>
+        <link rel="apple-touch-icon" sizes="180x180" href="img/web/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/web/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/web/favicon-16x16.png">
+        <link rel='stylesheet' href='css/style.css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css" integrity="sha512-rSWTr6dChYCbhpHaT1hg2tf4re2jUxBWTuZbujxKg96+T87KQJriMzBzW5aqcb8jmzBhhNSx4XYGA6/Y+ok1vQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Jeriel Benavides - Project 3</title>
+    </head>
+    <body>
+      <header>
+        <a id="header_link">
+          <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 441 39.06">
+            <g id="logo_paths">
+              <path class="logo_path" id="logo_1" data-name="#logo_1" d="M29.5,31.29V27.38h7.81v3.91a1.73,1.73,0,0,0,2,2V39.1Q29.5,39.1,29.5,31.29ZM49,17.62H37.31l-3.9-5.86H49Zm2,13.67V11.76H58.8V31.29q0,7.82-9.77,7.81H41.22V33.24H49A1.73,1.73,0,0,0,51,31.29Z" transform="translate(-29.5 -5.9)" style="fill: #fff"/>
+              <path class="logo_path" id="logo_2" d="M90.05,17.62H62.7l-3.9-5.86H90.05ZM62.7,19.57h7.82V33.24H90.05V39.1H62.7Zm27.35,9.77H78.33l-5.86-5.86H90.05Z" transform="translate(-29.5 -5.9)" style="fill: #fff"/>
+              <path class="logo_path" id="logo_3" d="M113.49,17.62H94l-3.9-5.86h23.44q9.77,0,9.76,7.81v2q0,6.27-6.29,7.5l6.29,10.07h-9.76l-9.77-15.62h9.77a1.72,1.72,0,0,0,2-1.95v-2A1.72,1.72,0,0,0,113.49,17.62ZM101.77,39.1H94V19.57h7.82Z" transform="translate(-29.5 -5.9)" style="fill: #fff"/>
+              <path class="logo_path" id="logo_4" d="M127.16,11.76H135V39.1h-7.81Z" transform="translate(-29.5 -5.9)" style="fill: #fff"/>
+              <path class="logo_path" id="logo_5" d="M166.22,17.62H138.88L135,11.76h31.25Zm-27.34,1.95h7.81V33.24h19.53V39.1H138.88Zm27.34,9.77H154.5l-5.86-5.86h17.58Z" transform="translate(-29.5 -5.9)" style="fill: #fff"/>
+              <path class="logo_path" id="logo_6" d="M177.94,31.29h-7.81V11.76h7.81Zm-7.81,2h27.34V39.1H170.13Z" transform="translate(-29.5 -5.9)" style="fill: #fff"/>
+              <path class="logo_path" id="logo_7" d="M230.83,17.62H211.3l-3.91-5.86h23.44q9.76,0,9.77,7.81v2a7.65,7.65,0,0,1-1.47,4.88,7.63,7.63,0,0,1,1.47,4.88q0,7.82-9.77,7.81h-9.77V33.24h9.77a1.72,1.72,0,0,0,1.95-2,1.72,1.72,0,0,0-1.95-1.95h-9.77V23.48h9.77a1.72,1.72,0,0,0,1.95-1.95v-2A1.72,1.72,0,0,0,230.83,17.62ZM219.11,39.1H211.3V19.57h7.81Z" transform="translate(-29.5 -5.9)" style="fill: #fff"/>
+              <path class="logo_path" id="logo_8" d="M271.85,17.62H244.5l-3.9-5.86h31.25ZM244.5,19.57h7.81V33.24h19.54V39.1H244.5Zm27.35,9.77H260.13l-5.86-5.86h17.58Z" transform="translate(-29.5 -5.9)" style="fill: #fff"/>
+              <path class="logo_path" id="logo_9" d="M275.75,5.9l29.3,29.3V45l-29.3-29.29Zm7.81,20.31V39.1h-7.81V18.4Zm13.68-1.56V11.76h7.81v20.7Z" transform="translate(-29.5 -5.9)" style="fill: #fff"/>
+              <path class="logo_path" id="logo_10" d="M321.47,26.76,315.21,39.1h-8.4l10.58-20.43Zm-2.89-10.39,4.05-7.79L338.45,39.1h-8.4Z" transform="translate(-29.5 -5.9)" style="fill: #fff"/>
+              <path class="logo_path" id="logo_11" d="M351.49,34.49l-4,7.8L331.63,11.76H340ZM348.6,24.1l6.27-12.34h8.4L352.69,32.19Z" transform="translate(-29.5 -5.9)" style="fill: #fff"/>
+              <path class="logo_path" id="logo_12" d="M365,11.76h7.81V39.1H365Z" transform="translate(-29.5 -5.9)" style="fill: #fff"/>
+              <path class="logo_path" id="logo_13" d="M396.28,17.62H376.75l-3.91-5.86h23.44q9.77,0,9.76,7.81V31.29q0,7.82-9.76,7.81h-9.77V33.24h9.77a1.72,1.72,0,0,0,2-2V19.57A1.72,1.72,0,0,0,396.28,17.62ZM384.56,39.1h-7.81V19.57h7.81Z" transform="translate(-29.5 -5.9)" style="fill: #fff"/>
+              <path class="logo_path" id="logo_14" d="M437.29,17.62H410L406,11.76h31.25ZM410,19.57h7.81V33.24h19.53V39.1H410Zm27.34,9.77H425.58l-5.86-5.86h17.57Z" transform="translate(-29.5 -5.9)" style="fill: #fff"/>
+              <path class="logo_path" id="logo_15" d="M451,11.76H470.5v5.86H451a1.73,1.73,0,0,0-2,1.95v2a1.73,1.73,0,0,0,2,1.95h3.9v5.86H451q-9.77,0-9.77-7.81v-2Q441.2,11.76,451,11.76Zm9.76,27.34H441.2V33.24h19.53a1.73,1.73,0,0,0,2-2,1.73,1.73,0,0,0-2-1.95h-3.9V23.48h3.9q9.76,0,9.77,7.81T460.73,39.1Z" transform="translate(-29.5 -5.9)" style="fill: #fff"/>
+            </g>
+          </svg>
+          
+        </a>
+    </header>
+        <div class="stars">
+            <svg id="stars" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1456.65 867.62">
+                <g>
+                  <circle cx="367.61" cy="281.99" r="9.6" style="fill: #fff"/>
+                  <g>
+                    <circle cx="409.3" cy="368.53" r="9.55" style="fill: #fff"/>
+                    <circle cx="409.3" cy="368.53" r="9.55" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.994857946901423px"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <circle cx="490.69" cy="56.58" r="8.8" style="fill: #fff"/>
+                    <circle cx="490.69" cy="56.58" r="8.8" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.9166134715080261px"/>
+                  </g>
+                  <g>
+                    <circle cx="364.02" cy="208.12" r="6.4" style="fill: #fff"/>
+                    <circle cx="364.02" cy="208.12" r="6.4" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.6663059633970261px"/>
+                  </g>
+                  <g>
+                    <circle cx="528.99" cy="237.62" r="5.86" style="fill: #fff"/>
+                    <circle cx="528.99" cy="237.62" r="5.86" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.6105260892957449px"/>
+                  </g>
+                  <g>
+                    <circle cx="618.72" cy="278.33" r="8.76" style="fill: #fff"/>
+                    <circle cx="618.72" cy="278.33" r="8.76" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.9129678982496261px"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <circle cx="461.37" cy="247.48" r="5.69" style="fill: #fff"/>
+                    <circle cx="461.37" cy="247.48" r="5.69" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.592920381045511px"/>
+                  </g>
+                  <g>
+                    <circle cx="358.3" cy="256.57" r="6.83" style="fill: #fff"/>
+                    <circle cx="358.3" cy="256.57" r="6.83" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.711455645283619px"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <circle cx="1446.81" cy="181.66" r="7.64" style="fill: #fff"/>
+                    <circle cx="1446.81" cy="181.66" r="7.64" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.796055093475122px"/>
+                  </g>
+                  <g>
+                    <circle cx="1358.17" cy="218.63" r="7.16" style="fill: #fff"/>
+                    <circle cx="1358.17" cy="218.63" r="7.16" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.746101362259593px"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <circle cx="1220.1" cy="799.91" r="9.22" style="fill: #fff"/>
+                    <circle cx="1220.1" cy="799.91" r="9.22" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.9603644073009491px"/>
+                  </g>
+                  <g>
+                    <circle cx="1114.09" cy="570.46" r="6.6" style="fill: #fff"/>
+                    <circle cx="1114.09" cy="570.46" r="6.6" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.6879070547223091px"/>
+                  </g>
+                  <g>
+                    <circle cx="1029.7" cy="474.96" r="6.52" style="fill: #fff"/>
+                    <circle cx="1029.7" cy="474.96" r="6.52" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.6794051811099052px"/>
+                  </g>
+                  <g>
+                    <circle cx="813.37" cy="485.5" r="7.54" style="fill: #fff"/>
+                    <circle cx="813.37" cy="485.5" r="7.54" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.7851516956090927px"/>
+                  </g>
+                  <g>
+                    <circle cx="790.56" cy="613.59" r="7.45" style="fill: #fff"/>
+                    <circle cx="790.56" cy="613.59" r="7.45" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.7763329601287842px"/>
+                  </g>
+                  <g>
+                    <circle cx="638.78" cy="550.26" r="8.13" style="fill: #fff"/>
+                    <circle cx="638.78" cy="550.26" r="8.13" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.8472905170917511px"/>
+                  </g>
+                  <g>
+                    <circle cx="548.51" cy="549.25" r="7.44" style="fill: #fff"/>
+                    <circle cx="548.51" cy="549.25" r="7.44" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.7751634353399277px"/>
+                  </g>
+                  <g>
+                    <circle cx="650.65" cy="443.06" r="7.78" style="fill: #fff"/>
+                    <circle cx="650.65" cy="443.06" r="7.78" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.8102576833963394px"/>
+                  </g>
+                  <g>
+                    <circle cx="688.14" cy="396.89" r="8.97" style="fill: #fff"/>
+                    <circle cx="688.14" cy="396.89" r="8.97" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.9347676330804825px"/>
+                  </g>
+                  <g>
+                    <circle cx="956.98" cy="571.76" r="6.83" style="fill: #fff"/>
+                    <circle cx="956.98" cy="571.76" r="6.83" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.7113045641779899px"/>
+                  </g>
+                  <g>
+                    <circle cx="882.77" cy="360.72" r="5.93" style="fill: #fff"/>
+                    <circle cx="882.77" cy="360.72" r="5.93" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.618117815926671px"/>
+                  </g>
+                  <g>
+                    <circle cx="1019.83" cy="297.6" r="5.7" style="fill: #fff"/>
+                    <circle cx="1019.83" cy="297.6" r="5.7" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.5936357423476875px"/>
+                  </g>
+                  <g>
+                    <circle cx="1123.28" cy="172.45" r="5.97" style="fill: #fff"/>
+                    <circle cx="1123.28" cy="172.45" r="5.97" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.6216773677617311px"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <circle cx="1342.68" cy="337.16" r="7.93" style="fill: #fff"/>
+                    <circle cx="1342.68" cy="337.16" r="7.93" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.8263322037458419px"/>
+                  </g>
+                  <g>
+                    <circle cx="1316.46" cy="478.28" r="6.56" style="fill: #fff"/>
+                    <circle cx="1316.46" cy="478.28" r="6.56" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.6832468868792057px"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <circle cx="365.74" cy="564.62" r="8.06" style="fill: #fff"/>
+                    <circle cx="365.74" cy="564.62" r="8.06" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.8400602942705154px"/>
+                  </g>
+                  <g>
+                    <circle cx="296.17" cy="405.04" r="9.55" style="fill: #fff"/>
+                    <circle cx="296.17" cy="405.04" r="9.55" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.994857947230339px"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <circle cx="965.6" cy="276.14" r="7.51" style="fill: #fff"/>
+                    <circle cx="965.6" cy="276.14" r="7.51" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.7824570867419243px"/>
+                  </g>
+                  <g>
+                    <circle cx="948.06" cy="272.12" r="8.85" style="fill: #fff"/>
+                    <circle cx="948.06" cy="272.12" r="8.85" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.9216519808769226px"/>
+                  </g>
+                  <g>
+                    <circle cx="867.74" cy="58.1" r="9.43" style="fill: #fff"/>
+                    <circle cx="867.74" cy="58.1" r="9.43" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.9826492834091187px"/>
+                  </g>
+                  <g>
+                    <circle cx="797.56" cy="9.34" r="7.25" style="fill: #fff"/>
+                    <circle cx="797.56" cy="9.34" r="7.25" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.7554151159524918px"/>
+                  </g>
+                  <g>
+                    <circle cx="692.32" cy="195.22" r="9.41" style="fill: #fff"/>
+                    <circle cx="692.32" cy="195.22" r="9.41" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.9796884602308273px"/>
+                  </g>
+                </g>
+                <g>
+                  <circle cx="11.84" cy="113.45" r="9.2" style="fill: #fff"/>
+                  <circle cx="11.84" cy="113.45" r="9.2" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.9581300008296967px"/>
+                </g>
+                <g>
+                  <g>
+                    <circle cx="281.77" cy="604.56" r="7.03" style="fill: #fff"/>
+                    <circle cx="281.77" cy="604.56" r="7.03" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.7326063156127929px"/>
+                  </g>
+                  <g>
+                    <circle cx="204.96" cy="860.29" r="5.69" style="fill: #fff"/>
+                    <circle cx="204.96" cy="860.29" r="5.69" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.5929204070847481px"/>
+                  </g>
+                  <g>
+                    <circle cx="89.55" cy="818.92" r="6.83" style="fill: #fff"/>
+                    <circle cx="89.55" cy="818.92" r="6.83" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.7114556637406348px"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <circle cx="1349.27" cy="801.46" r="7.64" style="fill: #fff"/>
+                    <circle cx="1349.27" cy="801.46" r="7.64" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.7960551065206527px"/>
+                  </g>
+                  <g>
+                    <circle cx="1297.14" cy="746.32" r="7.16" style="fill: #fff"/>
+                    <circle cx="1297.14" cy="746.32" r="7.16" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.7461013785004615px"/>
+                  </g>
+                </g>
+                <g>
+                  <g>
+                    <circle cx="1261.34" cy="444.77" r="9.22" style="fill: #fff"/>
+                    <circle cx="1261.34" cy="444.77" r="9.22" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.9602194172143936px"/>
+                  </g>
+                  <g>
+                    <circle cx="1111.96" cy="330.36" r="7.79" style="fill: #fff"/>
+                    <circle cx="1111.96" cy="330.36" r="7.79" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.8117676770687103px"/>
+                  </g>
+                  <g>
+                    <circle cx="1346.27" cy="186.5" r="8.91" style="fill: #fff"/>
+                    <circle cx="1346.27" cy="186.5" r="8.91" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.9279399758577347px"/>
+                  </g>
+                  <g>
+                    <circle cx="1375.7" cy="180.01" r="5.93" style="fill: #fff"/>
+                    <circle cx="1375.7" cy="180.01" r="5.93" style="fill: none;stroke: #fff;stroke-miterlimit: 10;stroke-width: 0.6175332581996917px"/>
+                  </g>
+                </g>
+              </svg>
+              
+        </div>
+        <div class="main_container">
+            <div class="emoji_controls">
+                <button type="button" id="playAll" padding="0 0" onclick="playAll()">▶</button>
+                <button type="button" id="pauseAll" onclick="pauseAll()">||</button>
+                <button type="button" id="pauseAll" onclick="reverseAll()">⭯</button>
+            </div>
+            <div class="emoji_container">
+             <!-- EMOJI 1 -->
+             <div class="emoji emoji_div_1">
+                <svg id="emoji1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+                    <rect id="head_1" x="22.58" y="22.58" width="204.85" height="204.85" style="fill: #939598;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <polygon id="nose_1" points="125 111.2 153.01 140.47 97.83 140.47 125 111.2" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                    <rect id="mouth_1" x="65.22" y="157.19" width="123.75" height="45.15" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                    <circle id="left_eye_1"  cx="73.58" cy="77.34" r="33.86" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                    <circle id="right_eye_1"  cx="176.84" cy="77.34" r="33.86" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                    <circle id="left_eyeball_1" class="eyeballs_1" cx="73.58" cy="77.34" r="15.47" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                    <circle id="right_eyeball_1" class="eyeballs_1" cx="176.84" cy="77.34" r="15.47" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                    <rect id="oleft_ear_1" y="66.89" width="22.58" height="60.2" style="fill: #2e3192;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <rect id="right_ear_1" x="227.42" y="66.89" width="22.58" height="60.2" style="fill: #2e3192;stroke: #231f20;stroke-miterlimit: 10"/>
+                </svg>
+            </div>
+            <!-- EMOJI 2 -->
+            <div class="emoji emoji_div_2">
+                <svg id="emoji2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+                        <rect id="head_2" x="22.99" y="22.08" width="204.85" height="204.85" style="fill: #939598;stroke: #231f20;stroke-miterlimit: 10"/>
+                        <polygon id="nose_2" points="125.42 110.71 153.43 139.97 98.24 139.97 125.42 110.71" style="fill: #2e3192;stroke: #fff;stroke-miterlimit: 10"/>
+                        <circle id="left_eye_2" cx="74" cy="76.85" r="33.86" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                        <circle id="right_eye_2" cx="177.26" cy="76.85" r="33.86" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                        <rect id="left_ear_2" x="0.42" y="66.4" width="22.58" height="60.2" style="fill: #39b54a;stroke: #231f20;stroke-miterlimit: 10"/>
+                        <rect id="right_ear_2" x="227.84" y="66.4" width="22.58" height="60.2" style="fill: #fff200;stroke: #231f20;stroke-miterlimit: 10"/>
+                        <polygon id="left_eyeball_2" class="eyeballs_2" points="73.58 67.23 101.59 96.5 46.41 96.5 73.58 67.23" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                        <polygon id="right_eyeball_2" class="eyeballs_2" points="177.66 64.7 205.67 93.97 150.48 93.97 177.66 64.7" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                        <rect id="tooth_2-1" x="63.34" y="156.72" width="20.48" height="45.15" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                        <rect id="tooth_2-2" data-name="tooth_2" x="84.87" y="156.72" width="20.48" height="45.15" style="fill: #fff200;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                        <rect id="tooth_2-3" data-name="tooth_2" x="105.35" y="156.72" width="20.48" height="45.15" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                        <rect id="tooth_2-4" data-name="tooth_2" x="125.84" y="156.72" width="20.48" height="45.15" style="fill: #ef4136;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                        <rect id="tooth_2-5" data-name="tooth_2" x="147.37" y="156.72" width="20.48" height="45.15" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                        <rect id="tooth_2-6" data-name="tooth_2" x="167.85" y="156.72" width="20.48" height="45.15" style="fill: #2e3192;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                </svg>
+            </div>
+            <!-- EMOJI 3 -->
+            <div class="emoji emoji_div_3">
+                <svg id="emoji3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+                    <rect id="head_3" x="23.14" y="22.52" width="205.91" height="205.91" style="fill: #939598;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <polygon id="nose_3" points="126.94 141.03 98.78 111.61 154.25 111.61 126.94 141.03" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                    <rect id="mouth_3" x="66.01" y="157.83" width="124.39" height="45.39" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                    <circle id="left_eye_3" cx="74.41" cy="77.57" r="34.04" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                    <circle id="right_eye_3" cx="178.21" cy="77.57" r="34.04" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                    <circle id="left_eyeball_3" class="eyeballs_3" cx="66.01" cy="93.12" r="15.55" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                    <circle id="right_eyeball_3"  class="eyeballs_3" cx="167.49" cy="93.12" r="15.55" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                    <rect id="right_ear_3" x="229.06" y="67.06" width="22.69" height="60.51" style="fill: #2e3192;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <rect id="left_ear_3" x="0.45" y="67.06" width="22.69" height="60.51" style="fill: #2e3192;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <rect id="progress_bar_3" x="66.01" y="157.83" width="20.3" height="45.39" style="fill: #39b54a;stroke: #fff;stroke-miterlimit: 10"/>
+                </svg>
+            </div>
+            <!-- EMOJI 4 -->
+            <div class="emoji emoji_div_4">
+                <svg id="emoji4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+                    <rect id="head_4" x="23.62" y="23.52" width="203.91" height="203.91" style="fill: #939598;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <polygon id="nose_4" points="126.41 142.12 98.53 112.99 153.46 112.99 126.41 142.12" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                    <g id="mouth_4">
+                    <rect id="mouth" x="65.86" y="150.44" width="123.18" height="44.94" style="fill: #231f20"/>
+                    <rect x="57.95" y="150.44" width="32.46" height="59.09" style="fill: #231f20"/>
+                    <rect x="160.74" y="150.44" width="32.46" height="59.09" style="fill: #231f20"/>
+                    </g>
+                    <circle id="left_eye_4" cx="74.39" cy="78.04" r="33.71" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                    <circle id="right_eye_4" cx="177.18" cy="78.04" r="33.71" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                    <rect id="left_ear_4" class="ears_4" x="1.15" y="67.63" width="22.47" height="59.92" style="fill: #2e3192;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <rect id="right_ear_4" class="ears_4" x="227.53" y="67.63" width="22.47" height="59.92" style="fill: #2e3192;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <polygon id="right_eyeball_4" class="eyeballs_4" points="177.44 112.16 159.79 83.03 194.56 83.03 177.44 112.16" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                    <polygon id="left_eyeball_4" class="eyeballs_4" points="74.44 111.97 56.8 82.84 91.56 82.84 74.44 111.97" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                    <path id="left_tear_4"  d="M41.55,146.4a16.41,16.41,0,1,0,32.81,0c0-9.06-16.41-21.24-16.41-34.66C58,125.16,41.55,137.34,41.55,146.4Z" style="fill: #27aae1"/>
+                    <path id="right_tear_4" d="M176.79,147.65a16.41,16.41,0,1,0,32.81,0c0-9.06-16.4-21.24-16.4-34.66C193.2,126.41,176.79,138.59,176.79,147.65Z" style="fill: #27aae1"/>
+                </svg>
+            </div>
+        
+
+            <!-- EMOJI 5 -->
+            <div class="emoji emoji_div_5">
+                <svg id="emoji5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+                    <rect id="head_5" x="22.52" y="20.79" width="204.31" height="204.31" style="fill: #939598;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <polygon id="nose_5" points="124.67 109.18 152.6 138.37 97.57 138.37 124.67 109.18" style="fill: #2e3192;stroke: #fff;stroke-miterlimit: 10"/>
+                    <circle id="left_eye_5" cx="73.38" cy="75.41" r="33.77" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                    <circle id="right_eye_5" cx="176.37" cy="75.41" r="33.77" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                    <rect id="left_ear_5" y="64.98" width="22.52" height="60.04" style="fill: #be1e2d;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <rect id="right_ear_5" x="226.82" y="64.98" width="22.52" height="60.04" style="fill: #be1e2d;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <rect id="tooth_5" x="62.75" y="155.07" width="20.43" height="45.03" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                    <rect id="tooth_5-2" data-name="tooth_5" x="84.22" y="155.07" width="20.43" height="45.03" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                    <rect id="tooth_5-3" data-name="tooth_5" x="104.66" y="155.07" width="20.43" height="45.03" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                    <rect id="tooth_5-4" data-name="tooth_5" x="125.09" y="155.07" width="20.43" height="45.03" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                    <rect id="tooth_5-5" data-name="tooth_5" x="146.56" y="155.07" width="20.43" height="45.03" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                    <rect id="tooth_5-6" data-name="tooth_5" x="166.99" y="155.07" width="20.43" height="45.03" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                    <path id="left_eyeball_5" class="eyeballs_5" d="M74.66,105.06,51.24,81.64C32.57,63,56,39.54,74.66,58.21,92.5,40.37,115.93,63.8,98.09,81.64Z" style="fill: #ed1c24"/>
+                    <path id="right_eyeball_5" class="eyeballs_5" d="M176.61,105.06,153.18,81.64c-18.67-18.67,4.76-42.1,23.43-23.43C194.45,40.37,217.87,63.8,200,81.64Z" style="fill: #ed1c24"/>
+                </svg>
+            </div>
+            <!-- EMOJI 6 -->
+            <div class="emoji emoji_div_6">
+                <svg id="emoji6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+                    <rect id="head_6" x="22.58" y="24.16" width="204.85" height="204.85" style="fill: #939598;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <polygon id="nose_6" points="125.84 142.05 97.83 112.79 153.01 112.79 125.84 142.05" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                    <circle id="left_eye_6" cx="73.58" cy="78.93" r="33.86" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                    <circle id="right_eye_6" cx="176.84" cy="78.93" r="33.86" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                    <circle id="left_eyeball_6" cx="72.32" cy="78.92" r="33.86" style="fill: #6d6e71;stroke: #fff;stroke-miterlimit: 10"/>
+                    <circle id="right_eyeball_6" cx="175.59" cy="78.77" r="33.7" style="fill: #6d6e71;stroke: #fff;stroke-miterlimit: 10"/>
+                    <rect id="left_ear_6" y="68.48" width="22.58" height="60.2" style="fill: #2e3192;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <rect id="right_ear_6" x="227.42" y="68.48" width="22.58" height="60.2" style="fill: #2e3192;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <circle id="mouth_6" cx="125.42" cy="180.95" r="22.78" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                    <g id="sleep_6">
+                        <path d="M179.56,149.41v1.76a2.7,2.7,0,0,1-.51,1.57l-19.83,27.85h20v3.86H153v-1.86a2.43,2.43,0,0,1,.46-1.39l19.86-27.93H153.94v-3.86Z" style="fill: #fff200"/>
+                        <path d="M208.22,134v1.76a2.69,2.69,0,0,1-.51,1.56l-19.83,27.85h20V169H181.67v-1.86a2.36,2.36,0,0,1,.46-1.39L202,137.82H182.6V134Z" style="fill: #fff200"/>
+                        <path d="M236.88,118.07v1.76a2.63,2.63,0,0,1-.52,1.56l-19.83,27.85h20v3.87H210.32v-1.86a2.4,2.4,0,0,1,.47-1.4l19.85-27.92H211.25v-3.86Z" style="fill: #fff200"/>
+                        <path d="M233.51,163.22V165a2.67,2.67,0,0,1-.51,1.56l-19.83,27.85h20v3.87H207V196.4a2.41,2.41,0,0,1,.46-1.4l19.86-27.92H207.89v-3.86Z" style="fill: #fff200"/>
+                    </g>
+                </svg>
+            </div>
+            <!-- EMOJI 7 -->
+            <div class="emoji emoji_div_7">
+                <svg id="emoji7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+                    <g id="right_ear_smoke_7">
+                      <path d="M204.64,94.75c.1.18,3.65-1.34,7.12-4.24a19.6,19.6,0,0,0,6.23-8.3c.16-.45.26-.77.36-1.12,1.75-6,.91-10.36,1.63-16.51.57-4.81.94-7.93,3-8.87s5.62.75,7.26,3.13c3.35,4.84-.51,12.5-1.72,14.91C221.11,88.55,204.42,94.38,204.64,94.75Z" style="fill: #9ea0a3;"/>
+                      <path d="M198,105.23c0,.2,3.83.67,8.29-.09a19.55,19.55,0,0,0,9.56-4c.36-.3.6-.54.86-.78,4.54-4.32,6-8.51,9.72-13.46,2.9-3.87,4.79-6.39,7.08-6.14s4.47,3.47,4.7,6.35c.46,5.87-6.72,10.55-9,12C215.36,108.14,198,104.8,198,105.23Z" style="fill: #9ea0a3;"/>
+                      <path d="M203.61,108.19c0,.2,3.65,1.33,8.18,1.37a19.62,19.62,0,0,0,10.12-2.32c.41-.23.69-.42,1-.62,5.22-3.45,7.39-7.32,11.92-11.54,3.54-3.31,5.84-5.45,8-4.81s3.81,4.2,3.52,7.08c-.57,5.85-8.46,9.21-10.95,10.26C220.19,114.09,203.69,107.76,203.61,108.19Z" style="fill: #9ea0a3;"/>
+                      <path d="M196.48,92.4c.1.18,3.65-1.34,7.12-4.24a19.48,19.48,0,0,0,6.23-8.3c.16-.44.26-.77.36-1.12,1.75-6,.91-10.36,1.64-16.51.56-4.81.93-7.93,3-8.86s5.62.74,7.26,3.12c3.35,4.84-.51,12.5-1.72,14.91C213,86.2,196.26,92,196.48,92.4Z" style="fill: #9ea0a3;"/>
+                    </g>
+                    <g id="left_ear_smoke_7">
+                      <path d="M54.2,92.25c-.1.17-3.45-1.34-6.74-4.24a19.64,19.64,0,0,1-5.89-8.31c-.15-.44-.24-.77-.34-1.11-1.65-6-.86-10.37-1.54-16.51-.54-4.81-.89-7.93-2.87-8.87S31.51,54,30,56.34c-3.16,4.84.49,12.5,1.63,14.91C38.63,86.05,54.4,91.88,54.2,92.25Z" style="fill: #9ea0a3;"/>
+                      <path d="M46.48,94.6c-.09.17-3.45-1.34-6.73-4.24a19.54,19.54,0,0,1-5.89-8.31c-.15-.44-.24-.77-.34-1.11-1.66-6-.86-10.37-1.55-16.51-.53-4.82-.88-7.93-2.87-8.87s-5.31.75-6.86,3.13c-3.16,4.84.48,12.5,1.63,14.91C30.91,88.39,46.69,94.22,46.48,94.6Z" style="fill: #9ea0a3;"/>
+                      <path d="M52.75,105.07c0,.21-3.62.68-7.84-.08a18.26,18.26,0,0,1-9-4c-.33-.31-.57-.54-.81-.79-4.29-4.32-5.67-8.5-9.19-13.45-2.74-3.88-4.53-6.39-6.69-6.14S15,84,14.73,86.91c-.43,5.86,6.36,10.55,8.49,12C36.34,108,52.75,104.64,52.75,105.07Z" style="fill: #9ea0a3;"/>
+                      <path d="M47.45,108c0,.2-3.45,1.34-7.73,1.37a17.71,17.71,0,0,1-9.57-2.31c-.38-.24-.65-.42-.93-.62-4.94-3.46-7-7.32-11.27-11.55-3.35-3.3-5.52-5.45-7.61-4.8S6.75,94.32,7,97.2c.55,5.85,8,9.21,10.36,10.26C31.78,113.94,47.38,107.61,47.45,108Z" style="fill: #9ea0a3;"/>
+                    </g>
+                    <g id="emoji7_head">
+                        <rect id="head_7" x="67.24" y="65.8" width="117.4" height="117.4" style="fill: #939598;stroke: #231f20;stroke-miterlimit: 10"/>
+                        <polygon id="nose_7" points="125.94 116.6 142 133.37 110.37 133.37 125.94 116.6" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                        <rect id="mouth_7" x="90.72" y="149.42" width="70.92" height="12.94" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                        <circle id="left_eye_7" class="eyes_7" cx="96.47" cy="97.19" r="19.41" style="fill: #be1e2d;stroke: #be1e2d;stroke-miterlimit: 10"/>
+                        <circle id="right_eye_7" class="eyes_7" cx="155.65" cy="97.19" r="19.41" style="fill: #be1e2d;stroke: #be1e2d;stroke-miterlimit: 10"/>
+                        <rect id="left_eye_brow_7" x="74.19" y="59.34" width="38.1" height="12.94" transform="translate(25.24 -25.85) rotate(18.22)" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                        <rect id="right_eye_brow_7" x="133.36" y="59.34" width="38.1" height="12.94" transform="translate(317.51 83.16) rotate(162.65)" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                        <rect id="left_ear_7" x="54.3" y="91.2" width="12.94" height="34.5" style="fill: #ed1c24;stroke: #231f20;stroke-miterlimit: 10"/>
+                        <rect id="right_ear_7" x="184.64" y="91.2" width="12.94" height="34.5" style="fill: #ed1c24;stroke: #231f20;stroke-miterlimit: 10"/>
+                        <polygon id="left_eyeball_7" points="96.23 91.2 112.29 107.97 80.66 107.97 96.23 91.2" style="fill: #8b5e3c;stroke: #fff;stroke-miterlimit: 10"/>
+                        <polygon id="right_eyeball_7" points="154.69 90.24 170.75 107.02 139.12 107.02 154.69 90.24" style="fill: #754c29;stroke: #fff;stroke-miterlimit: 10"/>
+                    </g>
+                </svg>
+            </div>
+            <!-- EMOJI 8 -->
+            <div class="emoji emoji_div_8">
+                <svg id="emoji8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+                    <rect id="head_8" x="22.58" y="16.61" width="204.85" height="204.85" style="fill: #939598;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <polygon id="nose_8" points="125 105.24 153.01 134.5 97.83 134.5 125 105.24" style="fill: #2e3192;stroke: #fff;stroke-miterlimit: 10"/>
+                    <circle id="left_eye_8" cx="73.58" cy="71.38" r="33.86" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                    <circle id="right_eye_8" cx="176.84" cy="71.38" r="33.86" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                    <rect id="right_ear_8" x="227.42" y="60.93" width="22.58" height="60.2" style="fill: #fff200;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <rect id="tooth_8" x="62.92" y="151.25" width="20.48" height="45.15" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                    <rect id="tooth_8-2" data-name="tooth_8" x="104.93" y="151.25" width="20.48" height="45.15" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                    <rect id="tooth_8-3" data-name="tooth_8" x="125.42" y="151.25" width="20.48" height="45.15" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                    <rect id="mouth_empty_8" x="142.77" y="151.25" width="20.48" height="45.15" style="fill: #231f20;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                    <rect id="mouth_empty_8-2" data-name="mouth_empty_8" x="84.77" y="151.25" width="20.48" height="45.15" style="fill: #231f20;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                    <rect id="tooth_8-4" data-name="tooth_8" x="163.25" y="151.25" width="20.48" height="45.15" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                    <circle id="left_eyeball_8" cx="56.54" cy="71.38" r="17.03" style="fill: #231f20"/>
+                    <circle id="right_eyeball_8" cx="193.98" cy="71.38" r="17.14" style="fill: #231f20"/>
+                    <rect id="left_ear_8" y="60.93" width="22.58" height="60.2" style="fill: #39b54a;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <rect id="falling_tooth_8" x="83.93" y="151.25" width="20.48" height="45.15" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                </svg>
+            </div>
+
+            <!-- EMOJI 9 -->
+            <div class="emoji emoji_div_9">
+                <svg id="emoji9" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+                    <rect id="head_9" x="23.86" y="16.22" width="203.7" height="203.7" style="fill: #939598;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <polygon id="nose_9" points="126.54 133.45 98.68 104.35 153.56 104.35 126.54 133.45" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>                        
+                    <rect id="left_ear_9" x="1.41" y="60.29" width="22.45" height="59.86" style="fill: #2e3192;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <rect id="right_ear_9" x="227.55" y="60.29" width="22.45" height="59.86" style="fill: #2e3192;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <g id="teeth_9">
+                        <rect id="tooth_9" x="66.26" y="149.68" width="24.61" height="44.9" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                        <rect id="tooth_9-2" data-name="tooth_9" x="90.87" y="149.68" width="24.61" height="44.9" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                        <rect id="tooth_9-3" data-name="tooth_9" x="115.48" y="149.68" width="24.61" height="44.9" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                        <rect id="tooth_9-4" data-name="tooth_9" x="140.09" y="149.68" width="24.61" height="44.9" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                        <rect id="tooth_9-5" data-name="tooth_9" x="164.7" y="149.68" width="24.61" height="44.9" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                    </g>
+                    <rect id="mouth_9" x="66.26" y="150.08" width="123.05" height="44.9" style="fill: #231f20;stroke: black;stroke-miterlimit: 10"/>
+                    <polyline id="left_eye_9" points="55.5 31.98 77.9 44.13 100.29 56.27 55.5 84.36" style="fill: none;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 6px"/>
+                    <polyline id="right_eye_9" points="197.54 31.98 173.72 44.13 149.89 56.27 197.54 84.36" style="fill: none;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 6px"/>
+                </svg>
+            </div>
+            <!-- EMOJI 10 -->
+            <div class="emoji emoji_div_10">
+                <svg id="emoji10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+                    <rect id="head_10" x="22.58" y="16.48" width="204.85" height="204.85" style="fill: #939598;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <polygon id="nose_10" points="125 105.1 153.01 134.37 97.83 134.37 125 105.1" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                    <rect id="mouth_10" x="65.22" y="173.67" width="123.75" height="22.58" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                    <g id="left_eye_10">
+                        <g id="left_eye_p2_10">
+                          <rect id="lep2_r" x="48.72" y="34.95" width="53.28" height="53.28" style="fill: none"/>
+                          <line id="lep2" x1="52.29" y1="36.61" x2="96.69" y2="86.77" style="fill: #231f20;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 4px"/>
+                        </g>
+                        <g id="left_eye_p1_10">
+                          <line id="lep1" x1="98.87" y1="36.61" x2="50.91" y2="86.77" style="fill: #231f20;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 4px"/>
+                          <rect id="lep1_r" x="48.72" y="34.95" width="50.14" height="54.13" style="fill: none"/>
+                        </g>
+                      </g>
+                      <g id="right_eye_10">
+                        <g id="right_eye_p2_10">
+                          <rect id="rep2_r" x="153.01" y="34.95" width="50.16" height="51.82" style="fill: none"/>
+                          <line id="rep2" x1="155.98" y1="36.61" x2="198.24" y2="84.36" style="fill: #231f20;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 4px"/>
+                        </g>
+                        <g id="right_eye_p1_10">
+                          <line id="rep1" x1="200.32" y1="36.61" x2="154.67" y2="84.36" style="fill: #231f20;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 4px"/>
+                          <rect id="rep1_r" x="153.01" y="34.95" width="50.16" height="51.82" style="fill: none"/>
+                        </g>
+                      </g>
+                    <rect id="left_ear_10" y="60.79" width="22.58" height="60.2" style="fill: #2e3192;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <rect id="right_ear_10" x="227.42" y="60.79" width="22.58" height="60.2" style="fill: #2e3192;stroke: #231f20;stroke-miterlimit: 10"/>
+                    <g id="eyes_10">
+                      <circle id="left_eye_10-2" data-name="left_eye_10" cx="73.94" cy="60.79" r="33.86" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                      <circle id="right_eye_10-2" data-name="right_eye_10" cx="177.2" cy="60.79" r="33.86" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                      <circle id="left_eyeball_10" cx="73.94" cy="60.79" r="15.47" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                      <circle id="right_eyeball_10" cx="177.2" cy="60.79" r="15.47" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                    </g>
+                </svg>
+            </div>
+            <!-- EMOJI 11 -->
+            <div class="emoji emoji_div_11">
+                <svg id="emoji11" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 250 250">
+                    <defs>
+                      <linearGradient id="Orange_Yellow" data-name="Orange, Yellow" x1="151.64" y1="198.23" x2="171.19" y2="198.23" gradientUnits="userSpaceOnUse">
+                        <stop offset="0" stop-color="#fff33b"/>
+                        <stop offset="0.04" stop-color="#fee72e"/>
+                        <stop offset="0.12" stop-color="#fed51b"/>
+                        <stop offset="0.2" stop-color="#fdca10"/>
+                        <stop offset="0.28" stop-color="#fdc70c"/>
+                        <stop offset="0.67" stop-color="#f3903f"/>
+                        <stop offset="0.89" stop-color="#ed683c"/>
+                        <stop offset="1" stop-color="#e93e3a"/>
+                      </linearGradient>
+                    </defs>
+                    <g class="glasses_11" id="handle_right_11">
+                        <rect id="hr_11" x="191.33" y="81.68" width="45.12" height="8.17" transform="translate(123.29 -126.12) rotate(45)" style="fill: #231f20;stroke: #231f20;stroke-miterlimit: 10"/>
+                        <rect id="hr_11_r" x="176.53" y="66.89" width="55.16" height="65.12" style="fill: none"/>
+                        </g>
+                      <rect id="head_11" x="32.92" y="48.17" width="195.53" height="195.53" style="fill: #939598;stroke: #231f20;stroke-miterlimit: 10"/>
+                      <polygon id="nose_11" points="130.69 132.77 157.42 160.71 104.75 160.71 130.69 132.77" style="fill: #2e3192;stroke: #fff;stroke-miterlimit: 10"/>
+                      <circle id="left_eye_11" cx="81.6" cy="100.45" r="32.32" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                      <circle id="right_eye_11" cx="180.17" cy="100.45" r="32.32" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                      <rect id="left_ear_11" x="11.37" y="90.47" width="21.55" height="57.46" style="fill: #39b54a;stroke: #231f20;stroke-miterlimit: 10"/>
+                      <rect id="right_ear_11" x="228.45" y="90.47" width="21.55" height="57.46" style="fill: #fff200;stroke: #231f20;stroke-miterlimit: 10"/>
+                      <g id="teeth_11">
+                        <rect id="tooth_11" x="71.43" y="176.69" width="19.55" height="43.1" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                        <rect id="tooth_11-2" data-name="tooth_11" x="91.98" y="176.69" width="19.55" height="43.1" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                        <rect id="tooth_11-3" data-name="tooth_11" x="111.53" y="176.69" width="19.55" height="43.1" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                        <rect id="tooth_11-4" data-name="tooth_11" x="131.08" y="176.69" width="19.55" height="43.1" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                        <rect id="golden_tooth_11" x="151.64" y="176.69" width="19.55" height="43.1" style="stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px;fill: url(#Orange_Yellow)"/>
+                        <rect id="tooth_11-5" data-name="tooth_11" x="171.19" y="176.69" width="19.55" height="43.1" style="fill: #e6e7e8;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+                      </g>
+                      <circle id="left_eyeball" cx="81.2" cy="100.45" r="14.76" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                      <circle id="right_eyeball_11" cx="181.36" cy="100.45" r="14.76" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                      <g class="glasses_11" id="glasses_11">
+                        <circle id="glass_right_11" cx="81.6" cy="101.78" r="32.32" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                        <circle id="glass_left_11" cx="180.17" cy="100.45" r="32.32" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                        <rect id="stem_11" x="35.09" y="98.01" width="196.73" height="7.55" style="fill: #231f20;stroke: #231f20;stroke-miterlimit: 10"/>
+                        <rect id="handle_left_11" x="-2.59" y="84.04" width="45.34" height="6.65" transform="translate(67.66 11.39) rotate(45)" style="fill: #231f20;stroke: #231f20;stroke-miterlimit: 10"/>
+                      </g>
+                  </svg>
+            </div>
+            <!-- EMOJI 12 -->
+            <div class="emoji emoji_div_12">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+                    <g id="emoji12">
+                        <rect id="head_12" x="22.58" y="22.58" width="204.85" height="204.85" style="fill: #939598;stroke: #231f20;stroke-miterlimit: 10"/>
+                        <polygon id="nose_12" points="125.84 140.47 97.83 111.2 153.01 111.2 125.84 140.47" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                        <circle id="left_eye_12" cx="73.58" cy="77.34" r="33.86" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                        <circle id="right_eye_12" cx="176.84" cy="77.34" r="33.86" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+                        <circle id="left_eyeball_12" class="eyeballs_12" cx="72.32" cy="96.99" r="15.47" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                        <circle id="right_eyeball_12" class="eyeballs_12" cx="175.59" cy="96.99" r="15.47" style="fill: #231f20;stroke: #fff;stroke-miterlimit: 10"/>
+                        <rect id="left_ear_12" y="66.89" width="22.58" height="60.2" style="fill: #2e3192;stroke: #231f20;stroke-miterlimit: 10"/>
+                        <rect id="right_ear_12" x="227.42" y="66.89" width="22.58" height="60.2" style="fill: #2e3192;stroke: #231f20;stroke-miterlimit: 10"/>
+                        <g id="mouth_12">
+                            <rect id="mouth_center_12" x="67.13" y="155.6" width="123.75" height="28.47" style="fill: #231f20;stroke: #231f20;stroke-miterlimit: 10"/>
+                            <rect id="mouth_left_12" x="46.44" y="166.29" width="47.01" height="26.66" transform="translate(249.56 109.68) rotate(90)" style="fill: #231f20;stroke: #231f20;stroke-miterlimit: 10"/>
+                            <rect id="mouth_r_12" x="167.55" y="166.29" width="47.01" height="26.66" transform="translate(380.97 -1.2) rotate(93.17)" style="fill: #231f20;stroke: #231f20;stroke-miterlimit: 10"/>
+                        </g>
+                        <g id="termometer">
+                            <rect id="termometer_glass_12" x="129.4" y="113.59" width="125.82" height="35.12" rx="10.72" transform="translate(-36.41 174.39) rotate(-45)" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10"/>
+                            <rect id="termometer_status_12" x="136.46" y="130.64" width="77.61" height="35.12" rx="10.72" transform=" rotate(-45)" style="fill: #ed1c24;stroke: #231f20;stroke-miterlimit: 10"/>
+                        </g>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        </div>
+
+        <footer>
+            <p>&nbsp;Copyright © 2021 - Jeriel Benavides</p>
+        </footer>
+            
+
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script> -->
+        <script type="text/javascript" src="js/vendor/gsap.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+
+</html>

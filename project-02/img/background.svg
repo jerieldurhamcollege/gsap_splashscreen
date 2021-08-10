@@ -1,0 +1,209 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1378.29 768">
+  <defs>
+    <radialGradient id="radial-gradient" cx="215" cy="274" fx="284.8541507669672" fy="297.6107672950458" r="110.5" gradientTransform="translate(-100.57 126.63) rotate(-26.85)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2" stop-color="#d9e021"/>
+      <stop offset="0.83" stop-color="#00a99d"/>
+      <stop offset="0.9" stop-color="#01a79b"/>
+      <stop offset="0.92" stop-color="#04a095"/>
+      <stop offset="0.94" stop-color="#09958b"/>
+      <stop offset="0.96" stop-color="#10847b"/>
+      <stop offset="0.97" stop-color="#1a6e68"/>
+      <stop offset="0.98" stop-color="#255350"/>
+      <stop offset="0.99" stop-color="#333434"/>
+      <stop offset="0.99" stop-color="#333"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="638" cy="639" fx="671.5047057977292" fy="650.3246214175301" r="53" gradientTransform="translate(0 13.06) scale(1 0.98)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2" stop-color="#d9e021"/>
+      <stop offset="0.83" stop-color="#0071bc"/>
+      <stop offset="0.9" stop-color="#0170ba"/>
+      <stop offset="0.92" stop-color="#036db3"/>
+      <stop offset="0.94" stop-color="#0868a8"/>
+      <stop offset="0.95" stop-color="#0e6097"/>
+      <stop offset="0.96" stop-color="#165681"/>
+      <stop offset="0.97" stop-color="#204a65"/>
+      <stop offset="0.98" stop-color="#2c3c46"/>
+      <stop offset="0.99" stop-color="#333"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="1223.54" cy="292.13" fx="1257.0418105060446" fy="303.45052134898606" r="53" gradientTransform="matrix(0, 1, -0.98, 0, 1437.14, -1026.26)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2" stop-color="#d9e021"/>
+      <stop offset="0.83" stop-color="#f15a24"/>
+      <stop offset="0.89" stop-color="#ef5a24"/>
+      <stop offset="0.91" stop-color="#e85825"/>
+      <stop offset="0.93" stop-color="#dd5626"/>
+      <stop offset="0.94" stop-color="#cc5227"/>
+      <stop offset="0.95" stop-color="#b64e29"/>
+      <stop offset="0.96" stop-color="#9a482b"/>
+      <stop offset="0.97" stop-color="#7a422d"/>
+      <stop offset="0.98" stop-color="#563a30"/>
+      <stop offset="0.99" stop-color="#333"/>
+    </radialGradient>
+  </defs>
+  <g id="background">
+    <g>
+      <rect x="0.5" y="0.5" width="1365" height="767" style="fill: #071528"/>
+      <path d="M1365,1V767H1V1H1365m1-1H0V768H1366V0Z"/>
+    </g>
+    <circle cx="379.32" cy="187.51" r="0.91" style="fill: #fff"/>
+    <g>
+      <circle cx="1068.47" cy="386.41" r="2.2" style="fill: #fff"/>
+      <circle cx="1040.9" cy="268.81" r="0.76" style="fill: #fff"/>
+      <circle cx="1024.22" cy="228.36" r="1.82" style="fill: #fff"/>
+      <circle cx="960.53" cy="238.41" r="2.12" style="fill: #fff"/>
+      <circle cx="944.54" cy="241.55" r="1.15" style="fill: #fff"/>
+      <circle cx="915.96" cy="168.92" r="2.03" style="fill: #fff"/>
+      <circle cx="1054.63" cy="276.3" r="1.67" style="fill: #fff"/>
+      <circle cx="1119.25" cy="240.62" r="1.86" style="fill: #fff"/>
+      <circle cx="1173.47" cy="189.52" r="1.89" style="fill: #fff"/>
+      <circle cx="1197.68" cy="86.06" r="1.09" style="fill: #fff"/>
+      <circle cx="1273.37" cy="184.04" r="2.93" style="fill: #fff"/>
+      <circle cx="1326.65" cy="74.02" r="1" style="fill: #fff"/>
+      <circle cx="1377.39" cy="164.74" r="0.97" style="fill: #fff"/>
+      <circle cx="1252.2" cy="161.8" r="1.72" style="fill: #fff"/>
+      <circle cx="1333.58" cy="177.1" r="1.05" style="fill: #fff"/>
+      <circle cx="1286.89" cy="233.91" r="0.57" style="fill: #fff"/>
+      <circle cx="1203.08" cy="291.22" r="1.33" style="fill: #fff"/>
+      <circle cx="1273.79" cy="398.39" r="0.9" style="fill: #fff"/>
+      <circle cx="1271.44" cy="457.1" r="1.66" style="fill: #fff"/>
+      <circle cx="1164.66" cy="483.23" r="2.03" style="fill: #fff"/>
+      <circle cx="1210.32" cy="490.54" r="2.21" style="fill: #fff"/>
+      <circle cx="1264.76" cy="570.5" r="2.32" style="fill: #fff"/>
+      <circle cx="1205.92" cy="522.84" r="1.05" style="fill: #fff"/>
+      <circle cx="1177.11" cy="631.51" r="2.09" style="fill: #fff"/>
+      <circle cx="1069.39" cy="598.83" r="2.92" style="fill: #fff"/>
+      <circle cx="1007.69" cy="556.43" r="1.15" style="fill: #fff"/>
+      <circle cx="1007.12" cy="473.58" r="1.64" style="fill: #fff"/>
+      <circle cx="900.69" cy="485.04" r="0.68" style="fill: #fff"/>
+      <circle cx="943.96" cy="399.11" r="1.16" style="fill: #fff"/>
+      <circle cx="850.94" cy="372.43" r="2.28" style="fill: #fff"/>
+      <circle cx="800.2" cy="304.63" r="2.42" style="fill: #fff"/>
+      <circle cx="671.26" cy="371.31" r="1.78" style="fill: #fff"/>
+      <circle cx="645.1" cy="269.78" r="0.79" style="fill: #fff"/>
+      <circle cx="587.43" cy="312.02" r="1.73" style="fill: #fff"/>
+      <circle cx="570.66" cy="273.32" r="1.62" style="fill: #fff"/>
+      <circle cx="503.52" cy="269.97" r="0.78" style="fill: #fff"/>
+      <circle cx="495.96" cy="159.23" r="2.32" style="fill: #fff"/>
+      <circle cx="458.09" cy="64.36" r="2.28" style="fill: #fff"/>
+      <circle cx="426.44" cy="74.19" r="1.63" style="fill: #fff"/>
+    </g>
+    <g>
+      <circle cx="407.49" cy="442.86" r="1.13" style="fill: #fff"/>
+      <circle cx="311.46" cy="425.57" r="2.57" style="fill: #fff"/>
+      <circle cx="297.71" cy="446.12" r="1.12" style="fill: #fff"/>
+      <circle cx="246.53" cy="436.12" r="1.95" style="fill: #fff"/>
+      <circle cx="128.61" cy="503.37" r="2.11" style="fill: #fff"/>
+      <circle cx="230.86" cy="549.19" r="1.31" style="fill: #fff"/>
+      <circle cx="259.3" cy="574.06" r="2.29" style="fill: #fff"/>
+      <circle cx="359.83" cy="549.19" r="0.79" style="fill: #fff"/>
+      <circle cx="370.18" cy="547.8" r="1.51" style="fill: #fff"/>
+      <circle cx="448.17" cy="562.63" r="2.03" style="fill: #fff"/>
+      <circle cx="456.07" cy="656.4" r="2.26" style="fill: #fff"/>
+      <circle cx="500.89" cy="501.95" r="0.66" style="fill: #fff"/>
+      <circle cx="529.83" cy="655.1" r="1.39" style="fill: #fff"/>
+      <circle cx="624.01" cy="642.71" r="1.03" style="fill: #fff"/>
+      <circle cx="685.84" cy="633.83" r="2.71" style="fill: #fff"/>
+      <circle cx="759.75" cy="668.75" r="1.28" style="fill: #fff"/>
+      <circle cx="829.58" cy="716.16" r="0.64" style="fill: #fff"/>
+      <circle cx="849.97" cy="598.18" r="2.83" style="fill: #fff"/>
+      <circle cx="941.41" cy="569.01" r="1.74" style="fill: #fff"/>
+    </g>
+    <g>
+      <circle cx="201.48" cy="579.73" r="1.12" style="fill: #fff"/>
+      <circle cx="236.15" cy="493.77" r="0.89" style="fill: #fff"/>
+      <circle cx="258.94" cy="443.19" r="2.33" style="fill: #fff"/>
+      <circle cx="248.01" cy="407.12" r="2.46" style="fill: #fff"/>
+      <circle cx="208.4" cy="396.55" r="2.89" style="fill: #fff"/>
+      <circle cx="170.47" cy="396.31" r="1.11" style="fill: #fff"/>
+      <circle cx="174.11" cy="324.05" r="0.63" style="fill: #fff"/>
+      <circle cx="283.17" cy="248.07" r="1.4" style="fill: #fff"/>
+      <circle cx="253.62" cy="122.93" r="2.01" style="fill: #fff"/>
+      <circle cx="244.72" cy="119.2" r="2.03" style="fill: #fff"/>
+      <circle cx="156.65" cy="92.42" r="1.23" style="fill: #fff"/>
+      <circle cx="135.46" cy="53.02" r="1.12" style="fill: #fff"/>
+    </g>
+    <g>
+      <circle cx="212.03" cy="618.81" r="2.3" style="fill: #fff"/>
+      <circle cx="91.09" cy="585.8" r="1.53" style="fill: #fff"/>
+      <circle cx="86.29" cy="489.48" r="0.91" style="fill: #fff"/>
+      <circle cx="133.36" cy="456.96" r="0.95" style="fill: #fff"/>
+      <circle cx="32.52" cy="420.29" r="0.8" style="fill: #fff"/>
+    </g>
+    <g>
+      <circle cx="601.73" cy="161.42" r="1.14" style="fill: #fff"/>
+      <circle cx="711" cy="228.37" r="2.16" style="fill: #fff"/>
+      <circle cx="723.01" cy="103.58" r="1.89" style="fill: #fff"/>
+      <circle cx="769.45" cy="180.48" r="1.03" style="fill: #fff"/>
+      <circle cx="785.28" cy="184.31" r="2.66" style="fill: #fff"/>
+      <circle cx="883.51" cy="190.93" r="1.15" style="fill: #fff"/>
+      <circle cx="973.21" cy="92.38" r="0.68" style="fill: #fff"/>
+      <circle cx="1084.57" cy="73.59" r="1.49" style="fill: #fff"/>
+    </g>
+    <g>
+      <circle cx="849.26" cy="481.88" r="0.64" style="fill: #fff"/>
+      <circle cx="838.85" cy="497.73" r="1" style="fill: #fff"/>
+      <circle cx="823.23" cy="506.94" r="1.46" style="fill: #fff"/>
+      <circle cx="769.25" cy="555.6" r="2.31" style="fill: #fff"/>
+      <circle cx="761.98" cy="503.74" r="2.97" style="fill: #fff"/>
+      <circle cx="773.22" cy="411.36" r="1.7" style="fill: #fff"/>
+      <circle cx="695.88" cy="402.57" r="1.51" style="fill: #fff"/>
+    </g>
+    <g>
+      <circle cx="1217.86" cy="588.45" r="1.24" style="fill: #fff"/>
+      <circle cx="1208.1" cy="540.49" r="0.94" style="fill: #fff"/>
+      <circle cx="1189.07" cy="474.38" r="0.95" style="fill: #fff"/>
+      <circle cx="1151.14" cy="423.21" r="1.75" style="fill: #fff"/>
+      <circle cx="1140.03" cy="388.37" r="1.2" style="fill: #fff"/>
+      <circle cx="1139.23" cy="309.57" r="2.66" style="fill: #fff"/>
+      <circle cx="1227.89" cy="255.4" r="1.21" style="fill: #fff"/>
+      <circle cx="1089.12" cy="159.92" r="1.75" style="fill: #fff"/>
+      <circle cx="1196.13" cy="128.03" r="2.67" style="fill: #fff"/>
+    </g>
+    <g>
+      <circle cx="930.32" cy="732.79" r="1.32" style="fill: #fff"/>
+      <circle cx="1011.25" cy="639.81" r="1.02" style="fill: #fff"/>
+      <circle cx="1063.95" cy="602.5" r="1.37" style="fill: #fff"/>
+      <circle cx="1037.52" cy="707.02" r="0.97" style="fill: #fff"/>
+      <circle cx="1139.89" cy="647.49" r="2.02" style="fill: #fff"/>
+    </g>
+    <g>
+      <circle cx="1087.6" cy="620.9" r="2.9" style="fill: #fff"/>
+      <circle cx="1189.03" cy="694.83" r="1.54" style="fill: #fff"/>
+      <circle cx="1208.4" cy="715.84" r="2.17" style="fill: #fff"/>
+      <circle cx="1210.57" cy="711.58" r="2.47" style="fill: #fff"/>
+      <circle cx="1264.93" cy="654.3" r="2.15" style="fill: #fff"/>
+      <circle cx="1284.51" cy="638.1" r="0.92" style="fill: #fff"/>
+    </g>
+    <g>
+      <circle cx="685.18" cy="382.7" r="2.98" style="fill: #fff"/>
+      <circle cx="614.66" cy="355.8" r="1.58" style="fill: #fff"/>
+      <circle cx="570.46" cy="421.89" r="2.47" style="fill: #fff"/>
+      <circle cx="447.85" cy="428.28" r="1.9" style="fill: #fff"/>
+      <circle cx="505.92" cy="500.52" r="2.81" style="fill: #fff"/>
+      <circle cx="487.83" cy="608.36" r="0.57" style="fill: #fff"/>
+      <circle cx="443.22" cy="597.39" r="2.74" style="fill: #fff"/>
+      <circle cx="369.06" cy="522.79" r="1.75" style="fill: #fff"/>
+    </g>
+    <g>
+      <circle cx="590.31" cy="435.68" r="2.46" style="fill: #fff"/>
+      <circle cx="508.01" cy="402.86" r="0.85" style="fill: #fff"/>
+      <circle cx="496.65" cy="408.35" r="2.24" style="fill: #fff"/>
+      <circle cx="488.01" cy="318.3" r="0.56" style="fill: #fff"/>
+      <circle cx="467.48" cy="295.25" r="1.8" style="fill: #fff"/>
+    </g>
+    <g>
+      <circle cx="782.76" cy="540.65" r="1.08" style="fill: #fff"/>
+      <circle cx="789.22" cy="453.41" r="2.63" style="fill: #fff"/>
+      <circle cx="761.58" cy="433.65" r="0.97" style="fill: #fff"/>
+      <circle cx="667.12" cy="508.22" r="0.94" style="fill: #fff"/>
+      <circle cx="660.48" cy="576.22" r="1.61" style="fill: #fff"/>
+      <circle cx="591.53" cy="461.89" r="0.53" style="fill: #fff"/>
+    </g>
+  </g>
+  <g id="stars">
+    <circle cx="636" cy="239" r="5.25" style="fill: #fff"/>
+  </g>
+  <g id="planets">
+    <circle cx="215" cy="274" r="110.5" style="fill: url(#radial-gradient)"/>
+    <ellipse cx="638" cy="640" rx="53" ry="52" transform="translate(-107.33 128.99) rotate(-10.65)" style="fill: url(#radial-gradient-2)"/>
+    <ellipse cx="1150.52" cy="197.28" rx="52" ry="53" transform="translate(757.9 1296.59) rotate(-80.08)" style="fill: url(#radial-gradient-3)"/>
+  </g>
+</svg>

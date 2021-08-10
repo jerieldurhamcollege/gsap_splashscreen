@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
+  <g id="emoji5">
+    <rect id="head_5" x="22.52" y="20.79" width="204.31" height="204.31" style="fill: #939598;stroke: #231f20;stroke-miterlimit: 10"/>
+    <polygon id="nose_5" points="124.67 109.18 152.6 138.37 97.57 138.37 124.67 109.18" style="fill: #2e3192;stroke: #fff;stroke-miterlimit: 10"/>
+    <circle id="left_eye_5" cx="73.38" cy="75.41" r="33.77" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+    <circle id="right_eye_5" cx="176.37" cy="75.41" r="33.77" style="fill: #fff;stroke: #fff;stroke-miterlimit: 10"/>
+    <rect id="left_ear_5" y="64.98" width="22.52" height="60.04" style="fill: #be1e2d;stroke: #231f20;stroke-miterlimit: 10"/>
+    <rect id="right_ear_5" x="226.82" y="64.98" width="22.52" height="60.04" style="fill: #be1e2d;stroke: #231f20;stroke-miterlimit: 10"/>
+    <rect id="tooth_5" x="62.75" y="155.07" width="20.43" height="45.03" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+    <rect id="tooth_5-2" data-name="tooth_5" x="84.22" y="155.07" width="20.43" height="45.03" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+    <rect id="tooth_5-3" data-name="tooth_5" x="104.66" y="155.07" width="20.43" height="45.03" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+    <rect id="tooth_5-4" data-name="tooth_5" x="125.09" y="155.07" width="20.43" height="45.03" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+    <rect id="tooth_5-5" data-name="tooth_5" x="146.56" y="155.07" width="20.43" height="45.03" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+    <rect id="tooth_5-6" data-name="tooth_5" x="166.99" y="155.07" width="20.43" height="45.03" style="fill: #fff;stroke: #231f20;stroke-miterlimit: 10;stroke-width: 2px"/>
+    <path id="left_eyeball_5" d="M74.66,105.06,51.24,81.64C32.57,63,56,39.54,74.66,58.21,92.5,40.37,115.93,63.8,98.09,81.64Z" style="fill: #ed1c24"/>
+    <path id="right_eyeball_5" d="M176.61,105.06,153.18,81.64c-18.67-18.67,4.76-42.1,23.43-23.43C194.45,40.37,217.87,63.8,200,81.64Z" style="fill: #ed1c24"/>
+  </g>
+</svg>

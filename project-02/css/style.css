@@ -1,0 +1,165 @@
+@font-face {
+  font-family: Revamped;
+  src: url(../css/fonts/Revamped.ttf);
+}
+@font-face {
+  font-family: VoiceActivated;
+  src: url(../css/fonts/VoiceActivatedBB_reg.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "VoiceActivated","Lato", sans-serif;
+
+}
+html{
+  font-size:20px;
+  background:  linear-gradient(rgba(23, 4, 90, 0.9), rgba(245, 242, 39, 0.6)), url("../img/background.svg") no-repeat center fixed; 
+   background-size:cover;
+}
+
+.stars{
+  position:absolute;
+  opacity: 0.2;
+}
+#stars{
+  max-height: 100vh;
+  width: 100vw;
+}
+
+header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  /* position: fixed; */
+  padding: 1em;
+  color: #eeee;
+  background: #262262;
+  z-index: 1000;
+  }
+  #logo {
+  height:10vh
+  }
+  #header_link:hover{
+    cursor: pointer;
+  }
+
+/* header {
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 0.5em;
+  position: fixed;
+  color: white;
+  z-index: 3;
+  background: rgba(23, 4, 90);
+  max-height: 3em;
+} */
+h1 {
+  margin: 12px 18px;
+  font-family:Revamped;
+  font-size: 2em;
+}
+.main_container{
+  display: grid;
+  justify-items: center;
+  margin-top: 5em;
+  grid-template-areas: ". buttons ." ". emojis .";
+  grid-template-columns: 1fr 2fr 1fr;
+  padding-bottom: 50px;
+}
+.emoji_controls{
+  display: grid;
+  grid-area: buttons;
+  gap: 1.5em;
+  grid-template-columns: repeat(3, 1fr);
+  z-index: 2; 
+}
+
+.emoji_controls button{
+  color: #939598;
+  height: 4em;
+  width: 4em;
+  font-size: 1em;
+}
+.emoji_container{
+  display: grid;
+  justify-items: center;
+  grid-area: emojis;
+  gap: 2em;
+  grid-template-columns: repeat(4, 1fr);
+}
+.emoji {
+  width: 8em;
+  height: 8em;
+  margin: 0.5em;
+  overflow: hidden;
+}
+.emoji:hover{
+  cursor: pointer;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(23, 4, 90, 0.9);
+  color: white;
+  margin-top: 3rem;
+  font-size: 1em;
+  font-family: VoiceActivated;
+}
+/* For tablet: */
+@media only screen and (max-width: 1000px) {
+  .main_container{
+    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
+  }
+  .emoji {
+    width: 5em;
+    height: 5em;
+  }
+  h1{
+    font-size: 1em;
+  }
+  .emoji_controls{
+    gap: 1.5em;
+  }
+  .emoji_controls button{
+    color: #939598;
+    height: 2em;
+    width: 2em;
+    font-size: 1em;
+  }
+}
+
+/* For mobile:*/
+@media only screen and (max-width: 700px) {
+  .main_container{
+    margin-top: 5em;
+    grid-template-columns: 1fr;
+    grid-template-areas: "buttons" "emojis";
+  }
+  .emoji_container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+  }
+  .emoji {
+    width: 30vw;
+    height: auto;
+  }
+  .emoji_controls{
+    gap: 0.75em;
+  }
+
+  .emoji_controls button{
+    color: #939598;
+    height: 2em;
+    width: 2em;
+    font-size: 1em;
+  }
+
+  #logo{
+    max-width: 80%;
+  }
+}
+
